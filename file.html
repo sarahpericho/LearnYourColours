@@ -1,0 +1,40 @@
+
+<html>
+<head>
+    <title>Learn Your Colours Game</title>
+    <link rel ="stylesheet" href="style.css">
+     <audio controls style="display:none" id="success"><source id="successaudio" src="https://marktmarshall.com/sounds/outfoxing.mp3" type="audio/mp3" crossorigin="anonymous"></source></audio>
+    <link rel="stylesheet" type="text/css" href="game.css">
+</head>
+<body>
+    <h1>Learn Your Colours!</h1><h2>Do you know your colours? Let's find out!</h2>
+  <div id="instructions">
+    <h3>Instructions:</h3>
+    <ol><li>Read the colour in the white box</li>
+    <li>Click the box with the colour that matches the word</li>
+    <li>Click the "Submit" Button and check if you're correct!</li>
+    </ol>
+  </div>
+ 
+    <div><div id="winningColour"></div></div>
+  
+  <div>
+    <div id="message"></div><div id="message2"></div>
+</div>
+  
+    <div id="container">
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+      </div>
+  <div>
+    <div id ="submitbutton"><button id="submit">Submit Colours!</button></div>
+      <div id="resetbutton"><button id="reset">Play Again! </button>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
